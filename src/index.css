@@ -7,7 +7,430 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+
+main {
+  min-height: 90vh;
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+  overflow: hidden; 
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+ /* be careful */
+ --background-color:#ffffff;
+ --background-color2:#fffff;
+}
+
+
+html {
+  scroll-behavior: smooth;
+  background-color: #f7f7f9;
+}
+
+
+p {margin-bottom: 1rem ;
+
+  font-size: 1rem !important}
+  
+  @media only screen and (max-width: 400px) {
+    p {
+        font-size: 0.9rem !important
+    }
+  }
+  
+  h1 {
+ 
+    font-size: 2.488rem !important;
+  
+  }
+  
+  h2 {font-size: 2.074rem !important;
+   }
+  
+  @media only screen and (max-width: 600px) {
+    h2 {
+        font-size: 1.5rem !important
+    }
+  }
+  
+  h3 {font-size: 1.728rem !important;
+  }
+  
+  h4 {font-size: 1.44rem !important;}
+  
+  
+  @media only screen and (max-width: 600px) {
+    h4 {
+        font-size: 1.2rem !important
+    }
+  }
+  
+  h5 {font-size: 1.2rem !important;}
+
+  .shortcuts{
+    display: flex;
+    align-items: center;
+  }
+
+  @media only screen and (max-width: 1000px) {
+    .pc-menu{
+
+      display: none;
+    }
+  }
+
+
+
+.Right-side{
+  display: flex;
+  align-items: center;
+}
+  
+
+.nav-logo{
+padding-right: 3vw;
+padding-left: 3vw;
+margin-top: 15px;
+margin-bottom: 15px;
+white-space: nowrap;
+color: rgb(255, 255, 255);
+}
+@media only screen and (max-width: 500px) {
+  .topnav{
+
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
+@media only screen and (max-width: 600px) {
+.lang-text{
+  display: none;
+}}
+
+/* Add a black background color to the top navigation */
+.topnav {
+
+  background-color:#2186d6;
+  overflow: hidden;
+  display:flex;
+  justify-content: space-between;
+  padding-right: 40px;
+  padding-left: 40px;
+
+  border-bottom: 1px solid rgb(0, 0, 0) !important;
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  transition: 0.3s;
+}
+
+.maptext a {
+text-decoration: none;
+color: #a10202;
+transition: 0.3s;
+}
+
+.maptext a:hover {
+  text-decoration: none;
+  color: #e07777;
+  }
+  
+  
+
+.topnav button {
+  text-align: center;
+  padding:  10px;
+  border: none;
+  font-size: 15px;
+  background-color: #2186d6;
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+
+}
+
+.topnav button:hover{
+  background-color: #6cb6f3;
+  
+  color: black;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #6cb6f3;
+  color: black;
+
+}
+.banner{
+  background-image: url("images/wave.svg");
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  
+  padding-bottom: 40px;
+}
+
+
+
+
+.combine-name{
+display: flex;
+justify-content: center;  
+position: relative;
+width: 30%;
+height: auto;
+}
+
+.name-text{
+  position: absolute;
+  bottom: 2.5vw;
+  left: 20vw;
+  font-size: 2vw;
+  white-space: nowrap;
+  color: #a20202;
+
+}
+
+
+.therapy-text{
+  position: absolute;
+  bottom: -0.4vw;
+  left: 20vw;
+  font-size: 1.8vw;
+  white-space: nowrap;
+  color: white;
+  background-color:#2185d5 ;
+  border-radius: 15px 50px 30px;
+  padding-left: 1.2vw;
+  padding-right: 1.2vw;
+  padding-bottom: 0.4vw;
+}
+
+
+
+.clinic-logo{
+  max-width: 40vw;
+}
+
+@media only screen and (max-width: 1000px) {
+  .clinic-logo{
+    max-width: 70vw;
+  }
+  .name-text{
+    font-size: 4vw;
+    left: 10vw;
+  }
+  .therapy-text{
+    font-size: 3.8vw;
+    left: 15vw !important;
+    bottom: -1vw;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .name-text{
+    font-size: 5.5vw;
+  left: 2vw;
+  }
+  .therapy-text{
+    font-size:5vw;
+    left: 10vw;
+    bottom: -3vw;
+  }
+}
+
+.mapBlock{
+  display: flex;
+justify-content: space-between;
+}
+
+
+@media only screen and (max-width: 1400px) {
+  .mapBlock{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .Maps-Section{
+
+    padding: 10px !important;
+  }
+  .mapBlock{
+  padding: 10px !important;
+  }
+
+}
+
+.small-address{
+
+white-space: normal !important;
+}
+
+.embeded-map{
+  display: flex;
+  width: 40vw;
+height: 300px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .embeded-map{
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    }
+}
+
+
+.page-layout{
+
+background-color: #f7f7f9;
+}
+@media only screen and (min-width: 1000px) {
+  .page-layout {
+    margin: 0px 150px 0px 150px;
+  }
+}
+
+
+.Maps-Section{
+  background-color: var(--background-color2);
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  justify-content: space-around;
+}
+
+.mapBlock{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.maptext{
+  max-width: 300px;
+
+}
+
+@media only screen and (min-width: 1000px) {
+  .maptext{
+
+    border-left: 1px solid rgba(0, 0, 0, 0.384);
+    padding-left: 40px;
+  }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+  .maptext{
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center;
+    max-width: 100% !important;
+    margin-bottom: 20px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  }
+
+}
+
+.map1{
+
+  padding-bottom: 60px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.37) !important;
+}
+
+
+
+
+.phone-number{
+  font-size: 20px !important;
+  white-space: nowrap;
+}
+
+@media only screen and (max-width: 1000px) {
+  .phone-number{
+    font-size: 16px !important;
+   
+  }
+}
+
+.bigTitle{
+padding-bottom: 20px;
+color: #a20202;
+}
+
+.about-section{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:var(--background-color) !important;
+  }
+  
+.about-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  white-space: pre-wrap;
+  border: 1px solid black;
+  margin: 40px 0px;
+  padding: 0px 30px 0px 30px;
+  max-width: 450px;
+  background-image: linear-gradient(to bottom right, #3a93d7, #1965a2);
+  color: white;
+}
+
+@media only screen and (min-width: 1000px) {
+  .about-container{
+    margin: 40px 60px !important;
+    border-radius: 7%;
+  }
+}
+
+.about-text{
+  display: flex;
+  justify-content: center;
+  white-space: pre-wrap;
+  padding: 20px;
+  padding-top: 0;
+
+  /* border: 1px solid black; */
+
+}
+
+.names{
+  
+  display: grid;
+  column-gap: 10px;
+  justify-items: center;
+  align-items: start;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 20px;
+  margin-right: 2vw;
+  margin-left: 2vw;
+  border-bottom: 1px solid rgb(255, 255, 255);
+  
+}
+.names > h5{
+  margin: 0px !important;
+  margin-bottom: 20px !important; 
+}
+
+li{
+  padding: 10px 0;
+  list-style: square;
 }

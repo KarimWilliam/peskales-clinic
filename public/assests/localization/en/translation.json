@@ -1,0 +1,35 @@
+    {
+    "app_title":"Peskales's Clinic",
+    "Welcome_to_React": "Welcome to React and react-i18next curt",
+    "variable": " it has been {{number}} since your last visit",
+    "button_Text": "عربي",
+    "point1":"Head of physical therapy department at Bmhan & Alraae Alsaleeh hospitals - Shobra.",
+    "point2":"The Anglo American in Al Jazeera, Cairo Center for liver diseases, the English Medical Center in Al Zabkya and the Coptic Hospital.",
+    "point3":"Formerly at salaam hospital in Mohandeseen and Greek Community Hospital.",
+    "point4":"American Physical Therapy Association member.",
+    "point5":"Middle Eastern Alternat Medicine Association member.",
+    "point6":"Arab Confederation for Physical Therapy member.",
+    "Telephone":"Phone",
+    "name":"Prof. Dr. Ashraf Peskales",
+    "logoImage":"engLogo",
+    "Address1":" El-Batal Ahmed Abd El-Aziz",
+    "Address1Number":"20",
+    "Address2Number":"",
+    "Address2":"Clinic F117 - Hale Town Medical Mall - Palm Hills - 6th of October City",
+    "number1":"012-8838-8889",
+    "number2":"012-1010-1974",
+    "about":"About",
+    "mohandeseen":"Mohandessin",
+    "october":"October",
+    "Location":"Location",
+    "Contact":"Contact",
+    "Address":"Peskales's Clinic Address",
+    "name1":"Dr. Ashraf Peskales",
+    "name2":"Dr. Nevine Adly",
+    "name3":"Dr. Tony Peskales",
+    "name4":"Dr. Ilona Peskales",
+    "physicalTherapy":"Physical Therapy"
+
+
+
+    }
