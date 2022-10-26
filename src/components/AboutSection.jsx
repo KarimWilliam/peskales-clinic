@@ -1,7 +1,6 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import image1 from "../images/therapy1.png";
-// import image2 from "../images/therapy2.png";
+import image1 from "../images/therapy1.avif";
 function AboutSection() {
   const { t } = useTranslation();
   return (
@@ -25,7 +24,12 @@ function AboutSection() {
           </ul>
         </div>
         <div className="mobileimg">
-          <img src={image1} alt="therputic image" />
+          <img
+            src={image1}
+            width={"16vw"}
+            height={"autos"}
+            alt="therputic image"
+          />
         </div>
       </div>
     </>

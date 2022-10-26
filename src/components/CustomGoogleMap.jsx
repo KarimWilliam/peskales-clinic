@@ -3,6 +3,7 @@ import { GoogleMap, useJsApiLoader } from "@react-google-maps/api";
 import { useTranslation } from "react-i18next";
 function CustomGoogleMap() {
   const { t } = useTranslation();
+
   return (
     <>
       <div className="mapBlock map1">

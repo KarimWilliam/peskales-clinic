@@ -51,9 +51,19 @@ function Header() {
           <button onClick={() => i18next.changeLanguage(nextLanguage)}>
             <span className="lang-text"> {t("button_Text")} </span>
             {nextLanguage === "ar" ? (
-              <img src={egyptFlag} width="20px" alt="egypt Flag" />
+              <img
+                src={egyptFlag}
+                width="20px"
+                height="auto"
+                alt="egypt Flag"
+              />
             ) : (
-              <img src={britishFlag} width="20px" alt="egypt Flag" />
+              <img
+                src={britishFlag}
+                width="20px"
+                height="auto"
+                alt="egypt Flag"
+              />
             )}
           </button>
           <a className="phone-number" href="tel:number">
@@ -62,6 +72,7 @@ function Header() {
               className="phoneimg"
               alt="phone"
               width={"18px"}
+              height={"auto"}
               src={phone}></img>
           </a>
         </div>
@@ -73,7 +84,8 @@ function Header() {
           <img
             className="clinic-logo"
             alt="Clinic Logo"
-            height="auto"
+            height="22vw"
+            width="auto"
             src={PeskalesLogo}></img>
           <div className="name-text"> {t("name")} </div>
           <div className="therapy-text"> {t("physicalTherapy")} </div>
