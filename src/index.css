@@ -355,8 +355,9 @@ background-color: #f7f7f9;
 
 
 .mapBlock{
-  display: flex;
-  justify-content: left;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
   padding: 50px;
 }
 
@@ -364,7 +365,7 @@ background-color: #f7f7f9;
 
   max-width: 300px;
   color: #2a3046;
-  padding-right: 100px;
+padding:20px
 
 }
 
