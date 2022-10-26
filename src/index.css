@@ -280,10 +280,6 @@ height: auto;
 
 }
 
-.mapBlock{
-  display: flex;
-justify-content: space-between;
-}
 
 
 @media only screen and (max-width: 1400px) {
@@ -312,7 +308,7 @@ white-space: normal !important;
 
 .embeded-map{
   display: flex;
-  width: 40vw;
+  width: 32vw;
 height: 300px;
 }
 
@@ -360,14 +356,15 @@ background-color: #f7f7f9;
 
 .mapBlock{
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   padding: 50px;
 }
 
 .maptext{
 
-  max-width: 250px;
-  color: #2a3046
+  max-width: 300px;
+  color: #2a3046;
+  padding-right: 100px;
 
 }
 
@@ -396,6 +393,7 @@ padding-top: 20px;
 .map1{
 
   padding-bottom: 60px;
+  padding-top: 20px !important;
   border-bottom: 1px solid #2a3046b6 !important;
 }
 
