@@ -24,6 +24,9 @@ function AboutSection() {
             <li>{t("point6")}</li>
           </ul>
         </div>
+        <div className="mobileimg">
+          <img src={image1} alt="therputic image" />
+        </div>
       </div>
     </>
   );

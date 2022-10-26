@@ -8,10 +8,10 @@ function CustomGoogleMap() {
       <div className="mapBlock map1">
         <div className="maptext">
           <p>
-            <h4> {t("mohandeseen")}</h4>
-            <h5>
+            <h3> {t("mohandeseen")}</h3>
+            <h4>
               {t("Telephone")}:<a href="tel:number"> {t("number1")}</a>
-            </h5>
+            </h4>
             <p className="small-address">
               {t("Address1Number")} {t("Address1")}
             </p>
@@ -27,10 +27,10 @@ function CustomGoogleMap() {
       <div className="mapBlock map2">
         <div className="maptext">
           <p>
-            <h4> {t("october")}</h4>
-            <h5>
+            <h3> {t("october")}</h3>
+            <h4>
               {t("Telephone")}: <a href="tel:number">{t("number2")}</a>
-            </h5>
+            </h4>
             <p className="small-address">
               {t("Address2")} {t("Address2Number")}
             </p>

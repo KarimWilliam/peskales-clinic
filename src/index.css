@@ -1,13 +1,13 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Roboto Slab', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-
+input[lang=en]{
+  font-family:'Roboto Slab' ;
+}
 
 main {
   min-height: 90vh;
@@ -17,8 +17,8 @@ main {
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
  /* be careful */
- --background-color:#ffffff;
- --background-color2:#fffff;
+ --background-color:#e0f1fc;
+ --background-color2:#f4fbff;
 }
 
 
@@ -30,7 +30,7 @@ html {
 
 p {margin-bottom: 1rem ;
 
-  font-size: 1rem !important}
+  font-size: 1.5rem }
   
   @media only screen and (max-width: 400px) {
     p {
@@ -79,18 +79,26 @@ p {margin-bottom: 1rem ;
     }
   }
 
-
+  @media only screen and (min-width: 1000px) {
+    .Right-side{
+      padding-right: 100px;
+    }
+    .nav-logo{
+      padding-left: 100px;
+      
+    }
+  }
 
 .Right-side{
   display: flex;
   align-items: center;
+
 }
   
 
 .nav-logo{
 padding-right: 3vw;
-padding-left: 3vw;
-margin-top: 15px;
+margin-top: 15px !important;
 margin-bottom: 15px;
 white-space: nowrap;
 color: rgb(255, 255, 255);
@@ -99,6 +107,7 @@ color: rgb(255, 255, 255);
   .topnav{
 
     padding: 0 !important;
+    padding-left: 10px !important;
     margin: 0 !important;
   }
 }
@@ -109,7 +118,7 @@ color: rgb(255, 255, 255);
 
 /* Add a black background color to the top navigation */
 .topnav {
-
+  border-top: 2px solid #1094d3;
   background-color:#2186d6;
   overflow: hidden;
   display:flex;
@@ -117,14 +126,14 @@ color: rgb(255, 255, 255);
   padding-right: 40px;
   padding-left: 40px;
 
-  border-bottom: 1px solid rgb(0, 0, 0) !important;
+  border-bottom: 1px solid #2a3046 !important;
 }
 
 
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: black;
+ border-radius: 20px;
   text-align: center;
   padding: 8px 16px;
   text-decoration: none;
@@ -135,13 +144,17 @@ color: rgb(255, 255, 255);
 
 .maptext a {
 text-decoration: none;
-color: #a10202;
+color: #e96b4b;
 transition: 0.3s;
 }
 
 .maptext a:hover {
   text-decoration: none;
-  color: #e07777;
+  color: #af2300;
+  }
+
+  .maptext > p >h4 {
+color: #e96b4b;
   }
   
   
@@ -159,29 +172,32 @@ transition: 0.3s;
 }
 
 .topnav button:hover{
-  background-color: #6cb6f3;
+  background-color: #2f9af1;
   
-  color: black;
+
 }
 
+.Right-side > Button {
+  border-radius: 20px;
+
+}
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #6cb6f3;
-  color: black;
+  background-color: #2f9af1;
+
 
 }
 .banner{
   background-image: url("images/wave.svg");
   background-repeat: no-repeat;
+  background-size: auto;
+  min-height: 25vw;
+  background-position: top;
   display: flex;
   justify-content: center;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  
   padding-bottom: 40px;
+
 }
-
-
-
 
 .combine-name{
 display: flex;
@@ -204,7 +220,7 @@ height: auto;
 
 .therapy-text{
   position: absolute;
-  bottom: -0.4vw;
+  bottom: -0.5vw;
   left: 20vw;
   font-size: 1.8vw;
   white-space: nowrap;
@@ -219,7 +235,11 @@ height: auto;
 
 
 .clinic-logo{
-  max-width: 40vw;
+  padding-top: 1.5vw;
+  max-height: 22vw;
+ max-height: auto !important;
+ height: auto !important;
+
 }
 
 @media only screen and (max-width: 1000px) {
@@ -231,23 +251,33 @@ height: auto;
     left: 10vw;
   }
   .therapy-text{
-    font-size: 3.8vw;
-    left: 15vw !important;
-    bottom: -1vw;
+    font-size: 3.6vw;
+    left: 10vw !important;
+    bottom: -3.2vw;
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 700px) {
 
   .name-text{
-    font-size: 5.5vw;
+    font-size: 5vw;
   left: 2vw;
+  bottom: -0vw;
   }
   .therapy-text{
     font-size:5vw;
-    left: 10vw;
-    bottom: -3vw;
+    left: 2vw !important;
+    bottom: -7vw;
   }
+  .banner{
+    padding-bottom: 50px;
+  }
+
+  .clinic-logo{
+    max-height: 100vw !important;
+    padding-top: 30px;
+  }
+
 }
 
 .mapBlock{
@@ -265,8 +295,8 @@ justify-content: space-between;
 
 @media only screen and (max-width: 600px) {
   .Maps-Section{
+    padding: 10px ;
 
-    padding: 10px !important;
   }
   .mapBlock{
   padding: 10px !important;
@@ -277,6 +307,7 @@ justify-content: space-between;
 .small-address{
 
 white-space: normal !important;
+
 }
 
 .embeded-map{
@@ -298,6 +329,7 @@ height: 300px;
 .page-layout{
 
 background-color: #f7f7f9;
+
 }
 @media only screen and (min-width: 1000px) {
   .page-layout {
@@ -312,7 +344,19 @@ background-color: #f7f7f9;
   flex-direction: column;
   padding: 50px;
   justify-content: space-around;
+  padding-bottom: 20px;
+  background-image: url("images/dotties.avif"),url("images/dotties.avif");
+   background-size: 150px;
+  background-repeat: no-repeat;
+  background-position: 80% 10%,45% 96%;
 }
+
+@media only screen and (max-width: 700px) {
+  .Maps-Section{
+    background-image: none;
+  }
+}
+
 
 .mapBlock{
   display: flex;
@@ -321,17 +365,17 @@ background-color: #f7f7f9;
 }
 
 .maptext{
-  max-width: 300px;
+
+  max-width: 250px;
+  color: #2a3046
 
 }
 
-@media only screen and (min-width: 1000px) {
-  .maptext{
-
-    border-left: 1px solid rgba(0, 0, 0, 0.384);
-    padding-left: 40px;
-  }
-
+.maptext >p {
+  margin-top: 0;
+}
+h3 {
+  margin-top: 0 !important;
 }
 
 
@@ -342,6 +386,8 @@ background-color: #f7f7f9;
     text-align: center;
     max-width: 100% !important;
     margin-bottom: 20px;
+    padding: 5px;
+padding-top: 20px;
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
   }
 
@@ -350,7 +396,7 @@ background-color: #f7f7f9;
 .map1{
 
   padding-bottom: 60px;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.37) !important;
+  border-bottom: 1px solid #2a3046b6 !important;
 }
 
 
@@ -363,22 +409,66 @@ background-color: #f7f7f9;
 
 @media only screen and (max-width: 1000px) {
   .phone-number{
-    font-size: 16px !important;
-   
+    font-size: 16px !important; 
+  }
+  .bigTitle{
+    padding-left: 50px;
   }
 }
 
-.bigTitle{
-padding-bottom: 20px;
-color: #a20202;
+@media only screen and (max-width: 500px) {
+
+  .bigTitle{
+    padding-left: 10px !important;
+  }
 }
 
-.about-section{
 
+.bigTitle{
+  padding-left: 50px;
+
+color: #e96b4b;
+}
+.about-section{
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color:var(--background-color) !important;
+  /* background image1 */
+  background-image: url("images/therapy1.avif"),url("images/dots.avif");
+  background-repeat: no-repeat, no-repeat;
+  background-size: 31vw,10vw;
+  background-position: 5% 93%, 74% 10%;
+  
+  
+  z-index: 10;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  }
+
+  @media only screen and (max-width: 1600px) {
+.about-section{
+  background-image: url("images/therapy1.avif");
+  background-repeat: no-repeat;
+  background-size: 16vw
+} }
+
+@media only screen and (max-width: 1600px) {
+  .about-section{
+
+    background-repeat: repeat;
+    background-image: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 56 28' width='56' height='28'%3E%3Cpath fill='%231e98f7' fill-opacity='0.4' d='M56 26v2h-7.75c2.3-1.27 4.94-2 7.75-2zm-26 2a2 2 0 1 0-4 0h-4.09A25.98 25.98 0 0 0 0 16v-2c.67 0 1.34.02 2 .07V14a2 2 0 0 0-2-2v-2a4 4 0 0 1 3.98 3.6 28.09 28.09 0 0 1 2.8-3.86A8 8 0 0 0 0 6V4a9.99 9.99 0 0 1 8.17 4.23c.94-.95 1.96-1.83 3.03-2.63A13.98 13.98 0 0 0 0 0h7.75c2 1.1 3.73 2.63 5.1 4.45 1.12-.72 2.3-1.37 3.53-1.93A20.1 20.1 0 0 0 14.28 0h2.7c.45.56.88 1.14 1.29 1.74 1.3-.48 2.63-.87 4-1.15-.11-.2-.23-.4-.36-.59H26v.07a28.4 28.4 0 0 1 4 0V0h4.09l-.37.59c1.38.28 2.72.67 4.01 1.15.4-.6.84-1.18 1.3-1.74h2.69a20.1 20.1 0 0 0-2.1 2.52c1.23.56 2.41 1.2 3.54 1.93A16.08 16.08 0 0 1 48.25 0H56c-4.58 0-8.65 2.2-11.2 5.6 1.07.8 2.09 1.68 3.03 2.63A9.99 9.99 0 0 1 56 4v2a8 8 0 0 0-6.77 3.74c1.03 1.2 1.97 2.5 2.79 3.86A4 4 0 0 1 56 10v2a2 2 0 0 0-2 2.07 28.4 28.4 0 0 1 2-.07v2c-9.2 0-17.3 4.78-21.91 12H30zM7.75 28H0v-2c2.81 0 5.46.73 7.75 2zM56 20v2c-5.6 0-10.65 2.3-14.28 6h-2.7c4.04-4.89 10.15-8 16.98-8zm-39.03 8h-2.69C10.65 24.3 5.6 22 0 22v-2c6.83 0 12.94 3.11 16.97 8zm15.01-.4a28.09 28.09 0 0 1 2.8-3.86 8 8 0 0 0-13.55 0c1.03 1.2 1.97 2.5 2.79 3.86a4 4 0 0 1 7.96 0zm14.29-11.86c1.3-.48 2.63-.87 4-1.15a25.99 25.99 0 0 0-44.55 0c1.38.28 2.72.67 4.01 1.15a21.98 21.98 0 0 1 36.54 0zm-5.43 2.71c1.13-.72 2.3-1.37 3.54-1.93a19.98 19.98 0 0 0-32.76 0c1.23.56 2.41 1.2 3.54 1.93a15.98 15.98 0 0 1 25.68 0zm-4.67 3.78c.94-.95 1.96-1.83 3.03-2.63a13.98 13.98 0 0 0-22.4 0c1.07.8 2.09 1.68 3.03 2.63a9.99 9.99 0 0 1 16.34 0z'%3E%3C/path%3E%3C/svg%3E");
+    } }
+  
+
+
+  .image1{
+    position: sticky;
+    bottom: -6vw;
+    right: 60vw;
+  max-width: 500px;
+  
   }
   
 .about-container{
@@ -389,7 +479,7 @@ color: #a20202;
   border: 1px solid black;
   margin: 40px 0px;
   padding: 0px 30px 0px 30px;
-  max-width: 450px;
+  max-width: 550px;
   background-image: linear-gradient(to bottom right, #3a93d7, #1965a2);
   color: white;
 }
@@ -397,9 +487,30 @@ color: #a20202;
 @media only screen and (min-width: 1000px) {
   .about-container{
     margin: 40px 60px !important;
-    border-radius: 7%;
+    border-radius: 25px;
+
   }
 }
+
+.mobileimg{
+  padding-bottom: 40px;
+ display: flex;
+ justify-content: center;
+}
+
+.mobileimg > img {
+ width: 80vw;
+ max-width: 500px;
+}
+
+@media only screen and (min-width: 1600px) {
+  .mobileimg{
+
+    display: none;
+  }
+  
+}
+
 
 .about-text{
   display: flex;
@@ -408,6 +519,7 @@ color: #a20202;
   padding: 20px;
   padding-top: 0;
 
+color: rgb(240, 240, 240);
   /* border: 1px solid black; */
 
 }
@@ -430,7 +542,31 @@ color: #a20202;
   margin-bottom: 20px !important; 
 }
 
+@media only screen and (max-width: 463px) {
+  .names > h5{
+max-width: 100px;
+  }
+}
+
 li{
   padding: 10px 0;
   list-style: square;
+  font-size: 1.2rem !important;
 }
+
+.Footer{
+  display: flex;
+  justify-content: center;
+  background-color: #0f68b4 ;
+  min-height: 50px;
+  color: white;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+position: relative;
+z-index: 10;
+}
+
+
+  .Footer >p{
+    font-size: 14px !important 
+  }
+

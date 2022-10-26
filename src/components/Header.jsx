@@ -35,7 +35,7 @@ function Header() {
 
   return (
     <div className="header">
-      <div className="topnav">
+      <div className="topnav curve">
         <div className="shortcuts">
           <h4 className="nav-logo">{t("app_title")}</h4>
           <div className="pc-menu">
@@ -73,6 +73,7 @@ function Header() {
           <img
             className="clinic-logo"
             alt="Clinic Logo"
+            height="auto"
             src={PeskalesLogo}></img>
           <div className="name-text"> {t("name")} </div>
           <div className="therapy-text"> {t("physicalTherapy")} </div>

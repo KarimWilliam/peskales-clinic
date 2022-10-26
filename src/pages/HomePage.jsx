@@ -15,7 +15,7 @@ function HomePage() {
         </h3>
         <GoogleMap />
       </div>
-      <h1>{t("variable", { number: "4" })}</h1>
+      {/* <h1>{t("variable", { number: "4" })}</h1> */}
     </>
   );
 }
