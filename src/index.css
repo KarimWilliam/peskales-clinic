@@ -280,21 +280,30 @@ height: auto;
 
 }
 
+.mapBlock{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  padding: 50px;
+}
 
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1600px) {
   .mapBlock{
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    justify-content: center;
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .Maps-Section{
-    padding: 10px ;
+    padding: 20px !important ;
 
   }
   .mapBlock{
+    display: flex;
+    flex-direction: column;
   padding: 10px !important;
   }
 
@@ -354,12 +363,6 @@ background-color: #f7f7f9;
 }
 
 
-.mapBlock{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-content: center;
-  padding: 50px;
-}
 
 .maptext{
 
@@ -409,6 +412,7 @@ padding-top: 20px;
 @media only screen and (max-width: 1000px) {
   .phone-number{
     font-size: 16px !important; 
+    padding-left: 0px !important;
   }
   .bigTitle{
     padding-left: 50px;
