@@ -1,13 +1,10 @@
 body {
   margin: 0;
-  font-family: 'Roboto Slab', serif;
+  font-family: 'Roboto Slab','Markazi Text', serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-input[lang=en]{
-  font-family:'Roboto Slab' ;
-}
 
 main {
   min-height: 90vh;
@@ -37,6 +34,8 @@ p {margin-bottom: 1rem ;
         font-size: 0.9rem !important
     }
   }
+
+
   
   h1 {
  
@@ -72,6 +71,10 @@ p {margin-bottom: 1rem ;
     align-items: center;
   }
 
+  .pc-menu >a{
+    font-size: 1.1rem !important;
+  }
+
   @media only screen and (max-width: 1000px) {
     .pc-menu{
 
@@ -95,6 +98,12 @@ p {margin-bottom: 1rem ;
 
 }
   
+@media screen and (min-width:1400px) {
+  .nav-logo{
+
+  
+  font-size: 28px !important;
+}}
 
 .nav-logo{
 padding-right: 3vw;
@@ -163,10 +172,9 @@ color: #e96b4b;
   text-align: center;
   padding:  10px;
   border: none;
-  font-size: 15px;
   background-color: #2186d6;
   color: white;
-  font-size: 18px;
+  font-size: 20px;
   transition: 0.3s;
 
 }
