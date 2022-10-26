@@ -26,7 +26,6 @@ i18n
       caches: ["cookie"],
     },
     backend: { loadPath: "/assests/localization/{{lng}}/translation.json" },
-    react: { useSuspense: false },
   });
 
 export default i18n;

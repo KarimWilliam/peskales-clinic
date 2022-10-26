@@ -10,7 +10,7 @@ const container = document.getElementById("root");
 const root = createRoot(container);
 const loadingMarkup = (
   <div>
-    <h2>Loading...</h2>
+    <div class="loader"></div>
   </div>
 );
 root.render(
