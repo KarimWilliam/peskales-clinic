@@ -135,7 +135,7 @@ color: rgb(255, 255, 255);
   padding-right: 40px;
   padding-left: 40px;
 
-  border-bottom: 1px solid #2a3046 !important;
+  border-bottom: 1px solid #2a304618 !important;
 }
 
 
@@ -181,7 +181,7 @@ color: #e96b4b;
 
 .topnav button:hover{
   background-color: #2f9af1;
-  
+  cursor: pointer;
 
 }
 
@@ -487,7 +487,7 @@ color: #e96b4b;
   flex-direction: column;
   justify-content: center;
   white-space: pre-wrap;
-  border: 1px solid black;
+
   margin: 40px 0px;
   padding: 0px 30px 0px 30px;
   max-width: 550px;

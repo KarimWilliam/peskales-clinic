@@ -11,7 +11,7 @@ function CustomGoogleMap() {
           <p>
             <h3> {t("mohandeseen")}</h3>
             <h4>
-              {t("Telephone")}:<a href="tel:number"> {t("number1")}</a>
+              {t("Telephone")}:<a href="tel:01288388889"> {t("number1")}</a>
             </h4>
             <p className="small-address">
               {t("Address1Number")} {t("Address1")}
@@ -30,7 +30,7 @@ function CustomGoogleMap() {
           <p>
             <h3> {t("october")}</h3>
             <h4>
-              {t("Telephone")}: <a href="tel:number">{t("number2")}</a>
+              {t("Telephone")}: <a href="tel:01210101974">{t("number2")}</a>
             </h4>
             <p className="small-address">
               {t("Address2")} {t("Address2Number")}

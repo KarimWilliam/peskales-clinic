@@ -66,7 +66,7 @@ function Header() {
               />
             )}
           </button>
-          <a className="phone-number" href="tel:number">
+          <a className="phone-number" href="tel:01288388889">
             {t("number1")}{" "}
             <img
               className="phoneimg"
