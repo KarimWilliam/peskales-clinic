@@ -444,9 +444,14 @@ padding-top: 20px;
 
   padding-bottom: 60px;
   padding-top: 20px !important;
-  border-bottom: 1px solid #2a3046b6 !important;
+
 }
 
+.divider{
+  border-bottom: 1px solid #2a304663 !important;
+  margin-left:3vw;
+  margin-right: 23vw;
+}
 
 
 

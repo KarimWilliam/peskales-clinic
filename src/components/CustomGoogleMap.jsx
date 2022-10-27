@@ -27,7 +27,7 @@ function CustomGoogleMap() {
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3453.460083419066!2d31.20507381551628!3d30.05234392515345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x145841256c61aa23%3A0x7466cb419951bf69!2s20%20El-Batal%20Ahmed%20Abd%20El-Aziz%2C%20Ad%20Doqi%2C%20Dokki%2C%20Giza%20Governorate%203751420%2C%20Egypt!5e0!3m2!1sen!2sus!4v1666371324782!5m2!1sen!2sus"
           loading="lazy"></iframe>
       </div>
-
+      <div className="divider"></div>
       <div className="mapBlock map2">
         <div className="maptext">
           <p>
