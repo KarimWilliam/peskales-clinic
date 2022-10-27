@@ -10,9 +10,12 @@ function CustomGoogleMap() {
         <div className="maptext">
           <p>
             <h3> {t("mohandeseen")}</h3>
-            <h4>
-              {t("Telephone")}:<a href="tel:01288388889"> {t("number1")}</a>
-            </h4>
+            <button className="tele-button">
+              <h4>
+                {t("Telephone")}:<a href="tel:01288388889"> {t("number1")}</a>
+              </h4>
+            </button>
+
             <p className="small-address">
               {t("Address1Number")} {t("Address1")}
             </p>
@@ -29,9 +32,11 @@ function CustomGoogleMap() {
         <div className="maptext">
           <p>
             <h3> {t("october")}</h3>
-            <h4>
-              {t("Telephone")}: <a href="tel:01210101974">{t("number2")}</a>
-            </h4>
+            <button className="tele-button">
+              <h4>
+                {t("Telephone")}: <a href="tel:01210101974">{t("number2")}</a>
+              </h4>
+            </button>
             <p className="small-address">
               {t("Address2")} {t("Address2Number")}
             </p>

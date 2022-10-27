@@ -150,7 +150,7 @@ color: rgb(255, 255, 255);
   color: white;
   transition: 0.3s;
 }
-
+/* 
 .maptext a {
 text-decoration: none;
 color: #e96b4b;
@@ -160,13 +160,51 @@ transition: 0.3s;
 .maptext a:hover {
   text-decoration: none;
   color: #af2300;
+  } */
+
+
+  .tele-button >h4 {
+    white-space: nowrap;
+color: #ffffff;
+margin: 5px;
+  }
+  a{
+    white-space: nowrap;
+    text-decoration: none !important;
+    color: white;
   }
 
-  .maptext > p >h4 {
-color: #e96b4b;
-  }
+  .tele-button {
+    background-image: linear-gradient(45deg, #FF512F 0%, #F09819  51%, #FF512F  100%)
+   }
+   
+   .tele-button {
+    white-space: nowrap;
+    padding: 5px 10px;
+    text-align: center;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 20px;
+    border: 0px;
+    box-shadow: 0px 0px 14px -7px #f09819;
+   }
+   
+   .tele-button:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+   }
+   
+   .tele-button:active {
+    transform: scale(0.95);
+   }
   
-  
+  /* .tele-button{
+  background-color: #000000;
+    border-radius: 30px;
+  } */
 
 .topnav button {
   text-align: center;
@@ -420,7 +458,9 @@ padding-top: 20px;
 @media only screen and (max-width: 1000px) {
   .phone-number{
     font-size: 16px !important; 
-    padding-left: 0px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+    margin-right: 5px;
   }
   .bigTitle{
     padding-left: 50px;
