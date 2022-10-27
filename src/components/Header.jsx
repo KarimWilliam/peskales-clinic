@@ -49,7 +49,6 @@ function Header() {
 
         <div className="Right-side">
           <button onClick={() => i18next.changeLanguage(nextLanguage)}>
-            <span className="lang-text"> {t("button_Text")} </span>
             {nextLanguage === "ar" ? (
               <img
                 src={egyptFlag}
@@ -65,15 +64,16 @@ function Header() {
                 alt="egypt Flag"
               />
             )}
+            <span className="lang-text"> {t("button_Text")} </span>
           </button>
           <a className="phone-number" href="tel:01288388889">
-            {t("number1")}{" "}
             <img
               className="phoneimg"
               alt="phone"
               width={"18px"}
               height={"auto"}
-              src={phone}></img>
+              src={phone}></img>{" "}
+            {t("number1")}
           </a>
         </div>
       </div>
