@@ -13,7 +13,7 @@ i18n
   .init({
     supportedLngs: ["en", "ar"],
     lng: document.querySelector("html").lang, //"en",
-    fallbackLng: "en",
+    fallbackLng: "ar",
     detection: {
       order: [
         "cookie",
