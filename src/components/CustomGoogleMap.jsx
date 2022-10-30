@@ -12,7 +12,7 @@ function CustomGoogleMap() {
             <h3> {t("mohandeseen")}</h3>
             <button className="tele-button">
               <h4>
-                {t("Telephone")}:<a href="tel:01288388889"> {t("number1")}</a>
+                {t("Telephone")}:<a href="tel:01288388889"> {t("number3")}</a>
               </h4>
             </button>
 

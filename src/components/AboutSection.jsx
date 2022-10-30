@@ -16,6 +16,7 @@ function AboutSection() {
         <div className="about-text">
           <ul>
             <li>{t("point1")}</li>
+            <li>{t("point7")} :</li>
             <li>{t("point2")}</li>
             <li>{t("point3")}</li>
             <li>{t("point4")}</li>
