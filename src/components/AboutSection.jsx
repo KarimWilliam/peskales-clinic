@@ -24,6 +24,20 @@ function AboutSection() {
             <li>{t("point6")}</li>
           </ul>
         </div>
+        {/* <div className="about-text">
+          <ul>
+            <li>{t("spec0")}</li>
+            <li>{t("spec1")} :</li>
+            <li>{t("spec2")}</li>
+            <li>{t("spec3")}</li>
+            <li>{t("spec4")}</li>
+            <li>{t("spec5")}</li>
+            <li>{t("spec6")}</li>
+            <li>{t("spec7")}</li>
+            <li>{t("spec8")}</li>
+            <li>{t("spec9")}</li>
+          </ul>
+        </div> */}
         <div className="mobileimg">
           <img
             src={image1}
