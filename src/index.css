@@ -53,6 +53,7 @@ p {margin-bottom: 1rem ;
   }
   
   h3 {font-size: 1.728rem !important;
+    color: #434d70;
   }
   
   h4 {font-size: 1.44rem !important;}
@@ -69,6 +70,7 @@ p {margin-bottom: 1rem ;
   .shortcuts{
     display: flex;
     align-items: center;
+
   }
 
   .pc-menu >a{
@@ -358,7 +360,7 @@ height: auto;
 .small-address{
 
 white-space: normal !important;
-
+color: #5a689b;
 }
 
 .embeded-map{
@@ -468,7 +470,7 @@ padding-top: 20px;
     margin-right: 5px;
   }
   .bigTitle{
-    padding-left: 50px;
+
   }
 }
 
@@ -482,6 +484,8 @@ padding-top: 20px;
 
 .bigTitle{
   padding-left: 50px;
+  max-width: 400px;
+  font-size: 38px !important;
 
 color: #e96b4b;
 }
@@ -608,6 +612,7 @@ li{
   padding: 10px 0;
   list-style: square;
   font-size: 1.2rem !important;
+  line-height: 28px;
 }
 
 .Footer{
