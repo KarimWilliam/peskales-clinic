@@ -1,1 +1,1 @@
-A simple clinic wensite
+A simple clinic website
