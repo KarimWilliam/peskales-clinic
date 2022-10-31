@@ -2,6 +2,7 @@ import React from "react";
 import { useTranslation } from "react-i18next";
 import AboutSection from "../components/AboutSection";
 import GoogleMap from "../components/CustomGoogleMap";
+import Speciality from "../components/Speciality";
 function HomePage() {
   const { t } = useTranslation();
   return (
@@ -15,6 +16,7 @@ function HomePage() {
         </h3>
         <GoogleMap />
       </div>
+      <Speciality />
       {/* <h1>{t("variable", { number: "4" })}</h1> */}
     </>
   );

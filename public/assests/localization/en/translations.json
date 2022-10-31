@@ -1,5 +1,6 @@
     {
-    "app_title":"Peskales's Clinics",
+    "app_title":"PESKALES Clinics",
+    "app_titles":"Peskales Clinics",
     "Welcome_to_React": "Welcome to React and react-i18next curt",
     "variable": " it has been {{number}} since your last visit",
     "button_Text": "عربي",
@@ -24,7 +25,7 @@
     "mohandeseen":"Mohandessin",
     "october":"October",
     "Location":"Location",
-    "Contact":"Contact",
+    "Contact":"Speciality",
     "Address":"Peskales Clinics Addresses",
     "name1":"Dr. Ashraf Peskales",
     "name2":"Dr. Nevine Adly",
@@ -38,9 +39,8 @@
     "spec4":"Lymph Drainage Massage",
     "spec5":"Sports injuries",
     "spec6":"Electro Therapy",
-    "spec7":"Pre and post operative",
-    "spec8":"Rehabilitation ",
-    "spec9":"Specialists in Orthopedic Neurological Spine Problems"
+    "spec7":"Pre and post operative Rehabilitation",
+    "spec8":"Specialists in Orthopedic Neurological Spine Problems"
 
 
 

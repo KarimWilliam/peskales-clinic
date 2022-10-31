@@ -8,6 +8,7 @@ import wave from "../images/wave.svg";
 import egyptFlag from "../images/Flag_of_Egypt.svg";
 import britishFlag from "../images/Flag_of_the_United_Kingdom.svg";
 import PeskalesLogo from "../images/AlphaPeskales.avif";
+import greenlogo from "../images/greenlogo.webp";
 function Header() {
   //Language settings
   const { t } = useTranslation();
@@ -29,7 +30,7 @@ function Header() {
   const nextLanguage = i18next.language === "ar" ? "en" : "ar";
   useEffect(() => {
     document.body.dir = currentLanguage.dir || "ltr";
-    document.title = t("app_title");
+    document.title = t("app_titles");
   }, [currentLanguage, t]);
   /////////////
 
