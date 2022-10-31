@@ -481,8 +481,11 @@ padding-top: 20px;
 
 .bigTitle{
   padding-left: 50px;
-  max-width: 400px;
+ padding-bottom: 20px;
   font-size: 38px !important;
+  text-align: center;
+  display: flex;
+  justify-content: center;
 
 color: #e96b4b;
 }
@@ -495,8 +498,8 @@ color: #e96b4b;
   background-image: url("images/therapy1.avif"),url("images/dots.avif");
   background-repeat: no-repeat, no-repeat;
   background-size: 31vw,10vw;
-  background-position: 5% 93%, 74% 10%;
-  
+  background-position: 5% 89%, 74% 10%;
+  padding-bottom: 21px;
   
   z-index: 10;
   position: relative;
@@ -746,3 +749,6 @@ box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2p
   
 }
 
+.bigTitle >p {
+  text-decoration: underline !important;
+}
