@@ -557,7 +557,7 @@ color: #e96b4b;
 }
 .spec-container{
   background-image: url("images/paper-texture.webp"),url("images/ring.svg");
-  background-repeat: no-repeat;
+  background-repeat: repeat,no-repeat;
   background-position: 0 0,111% 140%;
   background-size: 100%,25%;
 }

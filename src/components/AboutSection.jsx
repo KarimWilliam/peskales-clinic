@@ -42,7 +42,7 @@ function AboutSection() {
           <img
             src={image1}
             width={"16vw"}
-            height={"autos"}
+            height={"auto"}
             alt="therputic image"
           />
         </div>

@@ -8,7 +8,7 @@ function CustomGoogleMap() {
     <>
       <div className="mapBlock map1">
         <div className="maptext">
-          <p>
+          <div>
             <h3> {t("mohandeseen")}</h3>
             <button className="tele-button">
               <h4>
@@ -19,7 +19,7 @@ function CustomGoogleMap() {
             <p className="small-address">
               {t("Address1Number")} {t("Address1")}
             </p>
-          </p>
+          </div>
         </div>
 
         <iframe
@@ -30,7 +30,7 @@ function CustomGoogleMap() {
       <div className="divider"></div>
       <div className="mapBlock map2">
         <div className="maptext">
-          <p>
+          <div>
             <h3> {t("october")}</h3>
             <button className="tele-button">
               <h4>
@@ -40,7 +40,7 @@ function CustomGoogleMap() {
             <p className="small-address">
               {t("Address2")} {t("Address2Number")}
             </p>
-          </p>
+          </div>
         </div>
 
         <iframe
