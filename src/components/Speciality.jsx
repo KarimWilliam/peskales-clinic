@@ -7,7 +7,7 @@ import image3 from "../images/cardImages/laser.avif";
 import image4 from "../images/cardImages/lymph-massage.webp";
 import image2 from "../images/cardImages/manual.webp";
 import image7 from "../images/cardImages/prepost.webp";
-import image1 from "../images/cardImages/shockwave.webp";
+import image1 from "../images/cardImages/shockwaves.webp";
 import image5 from "../images/cardImages/sports.webp";
 
 function Speciality() {
