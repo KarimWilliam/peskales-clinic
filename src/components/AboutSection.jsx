@@ -3,6 +3,7 @@ import { useTranslation } from "react-i18next";
 import image1 from "../images/therapy1.avif";
 function AboutSection() {
   const { t } = useTranslation();
+
   return (
     <>
       <div className="about-container">
